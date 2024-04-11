@@ -1,5 +1,8 @@
 import Image from "next/image";
+import type { Metadata, ResolvingMetadata } from "next";
 
+// export async function generateMetadata() {}
+// generateStaticParams()
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
